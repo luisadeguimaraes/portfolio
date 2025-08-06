@@ -1,0 +1,19 @@
+/* index.css */
+
+:root {
+  --background-color: #FFFFFF;
+  --text-color: #212529;
+  --primary-color: #007bff;
+}
+
+.dark-theme {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --primary-color: #90caf9;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease; /* Optional smooth transition */
+}

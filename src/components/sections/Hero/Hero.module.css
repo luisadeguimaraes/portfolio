@@ -1,0 +1,15 @@
+/* Hero.css */
+.hero-section {
+  padding: 4rem 0;
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+.hero-subtitle {
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
