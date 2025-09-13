@@ -14,27 +14,36 @@ const TaxGuidanceExample = () => {
     }
 
     return (
-        <div >
+        <div>
             <div className={styles.headlineContainer}>
                 <h2 className={styles.sampleWorkHeadline}>
                     {taxProject.title}
                 </h2>
             </div>
 
-            {/* Map over the images array to display the pictures
-      <div className={styles.imageGallery}>
-        {taxProject.images.map((imgSrc, index) => (
-          <img key={index} src={imgSrc} alt={`${taxProject.title} ${index}`} />
-        ))}
-      </div> */}
-
             {/* Map over the descriptions array to display the content */}
             <div style={{ backgroundColor: taxProject.backgroundColor }}
                 className={styles.descriptionContainer}>
                 {taxProject.descriptions.map((desc, index) => (
                     <div key={index} className={styles.descriptionSection}>
-                        <h4 style={{ color: taxProject.secondaryColor }}  className={styles.descriptionHeading}>{desc.heading}</h4>
-                        <p className={styles.descriptionParagraph}>{desc.paragraph}</p>
+                        <h4 
+                          style={{ color: taxProject.secondaryColor }} 
+                          className={styles.descriptionHeading}>
+                            {desc.heading}
+                        </h4>
+                        <p 
+                          className={styles.descriptionParagraph}
+                          style={{ color: taxProject.secondaryColor }}
+                        >
+                            {/* This is the new rendering logic for the paragraph */}
+                            {desc.paragraph.map((part, partIndex) =>
+                                part.bold ? (
+                                    <strong key={partIndex}>{part.text}</strong>
+                                ) : (
+                                    <span key={partIndex}>{part.text}</span>
+                                )
+                            )}
+                        </p>
                     </div>
                 ))}
             </div>
