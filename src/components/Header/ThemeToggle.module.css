@@ -1,0 +1,53 @@
+.toggleButton {
+  /* No changes to the button's main properties */
+  background: none;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  padding: 0;
+  position: relative;
+  width: 4.0625rem;
+  height: 5.4375rem;
+  box-shadow: none;
+  filter: none;
+  /* REMOVE the transition from here */
+}
+
+/* We don't need to transform the button on hover anymore */
+.toggleButton:hover {
+  /* The transform: scale(1.1) rule is removed */
+}
+
+.iconContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3.875rem;
+  height: 3.875rem;
+  
+  /* ADD the transition here instead */
+  transition: transform 0.2s ease-in-out;
+}
+
+/* NEW RULE: This now targets the icon on hover */
+.toggleButton:hover .iconContainer {
+  /* We combine the centering transform with the scale */
+  transform: translateX(-50%) scale(1.1);
+}
+
+.caption {
+  /* No changes needed here */
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  font-family: 'Bakbak One', sans-serif;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+}

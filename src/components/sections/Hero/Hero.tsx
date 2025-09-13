@@ -1,12 +1,18 @@
-// Hero.tsx
-import React from 'react';
-import './Hero.module.css';
+// NO import for 'next/image' is needed
+import styles from './Hero.module.css';
+import AboutMe from "./AboutMe"
+import Expertise from './Expertise';
+
+// import { FiDownload, FiMail, FiLinkedin } from 'react-icons/fi';
+
+// NO import for Luisa.png from the public folder
 
 const Hero = () => {
   return (
-    <section className="hero-section">
-      <h1 className="hero-title">Hello, I'm Luisa</h1>
-      <p className="hero-subtitle">A Creative Developer & Designer</p>
+    <section className={styles.heroContainer}>
+     <AboutMe/>
+    <Expertise/>
+      
     </section>
   );
 };

@@ -1,0 +1,83 @@
+.selectedSection {
+    width: 100%;
+}
+
+.selectedWorkP {
+    margin-left: 5%;
+    color: #BFBFBF;
+    font-size: clamp(1.5rem, 1.5vw, 2.5vw);
+
+}
+
+.sampleWorkHeadline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* This horizontally centers the content */
+
+    color: var(--Primary-600, #4D4D4D);
+    text-align: center;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    /* The magic happens here */
+    font-size: clamp(1rem, 2vw, 3vw);
+}
+
+
+
+/* examples main divv */
+
+.examplesMainDiv {
+    width: 1440px;
+    height: 938px;
+    /* Make this a flex container to use 'gap' */
+    display: flex;
+    /* 'gap' separates items inside the container */
+    gap: 60px;
+    /* Optional: Vertically center the items */
+    align-items: center;
+    /* Optional: Center the items horizontally */
+    justify-content: center;
+}
+
+
+.descriptionContainer {
+    display: flex;
+    padding: 30px 80px;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+
+
+.descriptionSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.desciptionHeading {
+    font-family: zain;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.descriptionParagraph {
+    font-family: zain;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    margin: 0;
+}

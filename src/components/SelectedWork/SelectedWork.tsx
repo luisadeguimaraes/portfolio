@@ -1,0 +1,25 @@
+import styles from "./SelectedWork.module.css"
+import TaxGuidanceExample from "./TaxGuidanceExample";
+import AviationExample from "./AvaitionExample";
+import CampaignPlatformExample from "./CampaignPlatformExample";
+
+
+const SelectedWork = () => {
+  return (
+    //sectiono div
+    <div className={styles.sectionDiv}> 
+        {/* div containing nested divs, one with "selected work" one with example headline */}
+      <div>
+        <div>
+            <h3 className={styles.selectedWorkP}>Selected Work</h3>
+        </div>
+        <TaxGuidanceExample/>
+        <AviationExample/>
+        <CampaignPlatformExample/>
+       
+      </div>
+    </div>
+  );
+};
+
+export default SelectedWork;
