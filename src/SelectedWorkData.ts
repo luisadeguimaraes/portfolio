@@ -87,7 +87,7 @@ const portfolioData = [
       },
     ],
   },
-  {
+ {
     id: 3,
     title: "Campaign Management Platform",
     images: ["/path/to/image3.jpg"],
@@ -97,25 +97,39 @@ const portfolioData = [
       {
         heading: "Product Overview",
         paragraph: [
-          { text: "A campaign creation and management platform used multiple users types, designed with layered permissions and role-specific experiences." }
+          { text: "A " },
+          { text: "campaign creation and management platform", bold: true },
+          { text: " used multiple users types, designed with layered permissions and role-specific experiences." },
         ],
       },
       {
         heading: "Role & Contributions",
         paragraph: [
-          { text: "My main focus was simplifying the overall experience—removing unnecessary complexity without compromising functionality—so that users, regardless of their marketing expertise, could navigate and engage with confidence." }
+          { text: "My main focus was simplifying the overall experience—removing unnecessary complexity without compromising functionality—so that " },
+          { text: "users, regardless of their marketing expertise, could navigate and engage with confidence", bold: true },
+          { text: "." },
         ],
       },
       {
         heading: "Opportunities",
         paragraph: [
-          { text: "I streamlined legacy flows to reduce clutter and improve navigation, replaced jargon with clearer language for non-technical users, applied hierarchy and visual cues to guide interaction, and enhanced form clarity with labels and helpful placeholders." }
+          { text: "I streamlined legacy flows to " },
+          { text: "reduce clutter", bold: true },
+          { text: " and improve navigation, replaced jargon with " },
+          { text: "clearer language for non-technical users", bold: true },
+          { text: ", applied hierarchy and visual cues to guide interaction, and " },
+          { text: "enhanced form clarity", bold: true },
+          { text: " with labels and helpful placeholders." },
         ],
       },
       {
         heading: "Results & Impact",
         paragraph: [
-          { text: "The redesign made flows easier to navigate and reduced confusion, while the new visual approach brought a lighter, more organized feel to the platform. " }
+          { text: "The redesign made " },
+          { text: "flows easier to navigate", bold: true },
+          { text: " and reduced confusion, while the new visual approach brought a lighter, " },
+          { text: "more organized feel", bold: true },
+          { text: " to the platform. " },
         ],
       },
     ],

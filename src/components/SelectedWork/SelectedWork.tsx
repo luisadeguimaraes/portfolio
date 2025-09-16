@@ -1,7 +1,7 @@
 import styles from "./SelectedWork.module.css"
 import TaxGuidanceExample from "./TaxGuidanceExample";
 import AviationExamples from "./AvaitionExample";
-// import CampaignPlatformExample from "./CampaignPlatformExample";
+import CampaignPlatformExample from "./CampaignPlatformExample";
 
 
 const SelectedWork = () => {
@@ -15,7 +15,7 @@ const SelectedWork = () => {
         </div>
         <TaxGuidanceExample/>
         <AviationExamples/>
-        {/* <CampaignPlatformExample/> */}
+        <CampaignPlatformExample/>
        
       </div>
     </div>

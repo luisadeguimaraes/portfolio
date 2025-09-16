@@ -1,40 +1,66 @@
-// src/components/TaxGuidanceExample.tsx
+// src/components/CampaignPlatformExample.tsx
+import React from 'react';
 import styles from "./SelectedWork.module.css";
-// Make sure to use the correct path and file name for your data
 import portfolioData from "../../SelectedWorkData";
 
+interface ProjectData {
+  id: number;
+  title: string;
+  images: string[];
+  backgroundColor: string;
+  secondaryColor: string;
+  descriptions: {
+    heading: string;
+    paragraph: {
+      text: string;
+      bold?: boolean;
+    }[];
+  }[];
+}
 
-const CampaignPlatformExample = () => {
-    // Find the specific data object for this project.
+interface Props {
+  projectData: ProjectData;
+}
+
+const CampaignPlatformExample: React.FC<Props> = () => {
+
     const campaignProject = portfolioData.find(project => project.id === 3);
 
-    // Add a check to ensure the data was found before trying to use it.
-    if (!campaignProject) {
+    
+      if (!campaignProject) {
         return <div>Project data not found.</div>;
     }
 
     return (
-        <div >
+        <div 
+             className={styles.projectItemContainer}>
             <div className={styles.headlineContainer}>
                 <h2 className={styles.sampleWorkHeadline}>
                     {campaignProject.title}
                 </h2>
             </div>
-
-            {/* Map over the images array to display the pictures
-      <div className={styles.imageGallery}>
-        {campaignProject.images.map((imgSrc, index) => (
-          <img key={index} src={imgSrc} alt={`${campaignProject.title} ${index}`} />
-        ))}
-      </div> */}
-
             {/* Map over the descriptions array to display the content */}
-            <div style={{ backgroundColor: campaignProject.backgroundColor }}
-                className={styles.descriptionContainer}>
+            <div style={{ backgroundColor: campaignProject.backgroundColor }} className={styles.descriptionContainer}>
                 {campaignProject.descriptions.map((desc, index) => (
                     <div key={index} className={styles.descriptionSection}>
-                        <h4 style={{ color: campaignProject.secondaryColor }}  className={styles.descriptionHeading}>{desc.heading}</h4>
-                        <p style={{ color: campaignProject.secondaryColor }} className={styles.descriptionParagraph}>{desc.paragraph}</p>
+                        <h4 
+                          style={{ color: campaignProject.secondaryColor }} 
+                          className={styles.descriptionHeading}>
+                            {desc.heading}
+                        </h4>
+                        <p 
+                          className={styles.descriptionParagraph}
+                          style={{ color: campaignProject.secondaryColor }}
+                        >
+                            {/* This is the new rendering logic for the paragraph */}
+                            {desc.paragraph.map((part, partIndex) =>
+                                part.bold ? (
+                                    <strong key={partIndex}>{part.text}</strong>
+                                ) : (
+                                    <span key={partIndex}>{part.text}</span>
+                                )
+                            )}
+                        </p>
                     </div>
                 ))}
             </div>
