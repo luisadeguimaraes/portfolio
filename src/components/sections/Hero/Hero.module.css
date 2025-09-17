@@ -10,6 +10,8 @@
   width: 100%;
 }
 
+
+
 /* --- Top Content Area (Bio) --- */
 /* Container for the image and its pseudo-element offset */
 .profileImageWrapper {
@@ -39,21 +41,24 @@
 /* The magic for the offset background happens here with ::before */
 .backgroundImage {
   position: absolute;
- 
+
   top: 0;
   left: 0;
-transform: rotate(-14deg);
+  transform: rotate(-14deg);
   opacity: 0.2;
 
 }
 
 .topContent {
+
   display: flex;
-  flex-direction: column;
+  padding: 0 80px;
+  justify-content: center;
   align-items: center;
-  gap: 1.5rem;
-  text-align: center;
-  max-width: 50rem;
+  gap: 72px;
+  align-self: stretch;
+
+
 }
 
 .name {
@@ -69,11 +74,21 @@ transform: rotate(-14deg);
   /* A slightly muted color for the location */
 }
 
+.imageOuterWrapperDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Vertically align items in the center */
+  gap: 4rem; /* Adjusted gap slightly */
+}
+
 .bio {
   font-size: 1.25rem;
-  /* 20px */
   line-height: 1.6;
   font-weight: 400;
+  /* THE FIX: Constrain the width */
+  max-width: 600px;
+  /* Optional: Align text left for better paragraph readability */
+  text-align: left;
 }
 
 .links {
@@ -106,7 +121,7 @@ transform: rotate(-14deg);
 }
 
 /* --- Bottom Content Area (Pills) --- */
-.bottomContent {
+.expertiseDiv {
   display: flex;
   flex-direction: column;
   align-items: center;

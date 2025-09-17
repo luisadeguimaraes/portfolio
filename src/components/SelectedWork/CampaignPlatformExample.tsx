@@ -1,28 +1,10 @@
 // src/components/CampaignPlatformExample.tsx
-import React from 'react';
 import styles from "./SelectedWork.module.css";
 import portfolioData from "../../SelectedWorkData";
 
-interface ProjectData {
-  id: number;
-  title: string;
-  images: string[];
-  backgroundColor: string;
-  secondaryColor: string;
-  descriptions: {
-    heading: string;
-    paragraph: {
-      text: string;
-      bold?: boolean;
-    }[];
-  }[];
-}
 
-interface Props {
-  projectData: ProjectData;
-}
 
-const CampaignPlatformExample: React.FC<Props> = () => {
+const CampaignPlatformExample = () => {
 
     const campaignProject = portfolioData.find(project => project.id === 3);
 

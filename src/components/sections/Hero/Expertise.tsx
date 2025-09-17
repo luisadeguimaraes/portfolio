@@ -2,7 +2,7 @@ import styles from "./Hero.module.css"
 import pillsData from "./pillsData"
 
 const Expertise = () => (
-    <div className={styles.bottomContent}>
+    <div className={styles.expertiseDiv}>
         <h2 className={styles.pillsTitle}>
           What I've designed (and can design for you)
         </h2>
