@@ -2,6 +2,7 @@
 import styles from './Hero.module.css';
 import AboutMe from "./AboutMe"
 import Expertise from './Expertise';
+import Contact from './Contact';
 
 // import { FiDownload, FiMail, FiLinkedin } from 'react-icons/fi';
 
@@ -11,6 +12,7 @@ const Hero = () => {
   return (
     <section className={styles.heroContainer}>
      <AboutMe/>
+     <Contact/>
     <Expertise/>
       
     </section>

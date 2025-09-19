@@ -4,17 +4,25 @@ import AboutMePD from "./AboutMePD"
 
 
 const AboutMe = () => (
+  <>
   <div className={styles.topContent}>
     
 
   <AboutMePD/>
 
 
+   <div className={styles.bio}> 
+                <p>
+                    +1 year of experience designing and developing digital products in a cross-functional <strong>team</strong>, partnering with founders and businesses to bring new ideas to life at a <strong>software company</strong>.
+                </p>
+            </div>
    
 
     
   
   </div>
+      
+</>
 );
 
 export default AboutMe;
@@ -22,14 +30,3 @@ export default AboutMe;
 
 
 
-    // <div className={styles.links}>
-    //   <a href="mailto:luisadeguimaraes@gmail.com" className={styles.linkItem}>
-    //     luisadeguimaraes@gmail.com
-    //   </a>
-    //   <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.linkItem}>
-    //     LinkedIn
-    //   </a>
-    //   <a href="/luisa-guimaraes-resume.pdf" download className={styles.linkItem}>
-    //     Download resume
-    //   </a>
-    // </div>
