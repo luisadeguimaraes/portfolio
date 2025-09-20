@@ -133,35 +133,3 @@ gap: 6rem;
 
 
 
-
-/* CONTACT */
-
-
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  /* Allows links to wrap on smaller screens */
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  /* 32px */
-  margin-top: 1rem;
-  /* 16px */
-}
-
-.linkItem {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  /* 8px */
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--text-color);
-  /* Uses the theme variable */
-  text-decoration: none;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.linkItem:hover {
-  opacity: 0.7;
-}

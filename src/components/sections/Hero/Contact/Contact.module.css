@@ -1,0 +1,52 @@
+/* CONTACT */
+
+.emailParent {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: Zain;
+  margin: 1rem 0;
+}
+
+.contactItem {
+  width: 293.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+
+.contactText {
+  position: relative;
+  font-weight: 300;
+  color: inherit; /* This ensures the text color is inherited from the parent (.emailParent) */
+  text-decoration: none; /* Removes the underline from the anchor tag */
+}
+
+.resume {
+  gap: 10px;
+}
+
+.downloadIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+
+
+/* Vector */
+
+.vectorIcon {
+  width: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+}
+
+
+
+

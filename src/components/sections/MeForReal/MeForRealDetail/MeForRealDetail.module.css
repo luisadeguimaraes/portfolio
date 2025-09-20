@@ -1,0 +1,42 @@
+.bornInRioParent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    gap: 40px;
+    text-align: left;
+    font-size: 24px;
+    color: #4d4d4d;
+    font-family: Zain;
+}
+
+
+.bornInRioContainer {
+  	width: 789px;
+  	position: relative;
+  	font-size: 24px;
+  	color: #4d4d4d;
+  	text-align: left;
+  	display: inline-block;
+  	font-family: Zain;
+}
+.bornInRioDeJaneiroBrazil {
+  	margin: 0;
+}
+.bornInRio {
+  	font-weight: 300;
+  	font-family: Zain;
+}
+.brazil {
+  	font-weight: 800;
+  	font-family: Zain;
+}
+.inspireHowI {
+  	text-decoration: underline;
+}
+.asACookWaitressGardener {
+  	font-weight: 300;
+}
+
