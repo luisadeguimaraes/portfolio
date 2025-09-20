@@ -1,3 +1,4 @@
+import Countries from "./Countries/Countries";
 import styles from "./MeForRealDetail.module.css"
 import ParagraphDetail from "./ParagraphDetail";
 
@@ -7,6 +8,7 @@ const MeForRealDetail = () => {
      
         <div className={styles.bornInRioParent}>
             <ParagraphDetail/>
+            <Countries/>
         </div>
     )
 }

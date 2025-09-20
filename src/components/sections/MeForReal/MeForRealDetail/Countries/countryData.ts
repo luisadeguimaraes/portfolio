@@ -1,36 +1,38 @@
+// import pics from "../../../../../../public/CountryPictures/brazil.jpg" pathing for reference
 
 
-const countryData =  [
+
+const countryData = [
   {
     country: 'brazil',
-    flag: '/path/to/brazil-flag.svg',
-    notSelectedFlag: '/path/to/brazil-flag-not-selected.svg',
-    picture: '/path/to/brazil-picture.jpg',
+    flag: '/flags/brazil-flag.svg',
+    notSelectedFlag: '/flags/brazil-flag-not-selected.svg',
+    picture: '/CountryPictures/brazil.jpg',
   },
   {
     country: 'vietnam',
-    flag: '/path/to/vietnam-flag.svg',
-    notSelectedFlag: '/path/to/vietnam-flag-not-selected.svg',
-    picture: '/path/to/vietnam-picture.jpg',
+    flag: '/flags/vietnam-flag.svg',
+    notSelectedFlag: '/flags/vietnam-flag-not-selected.svg',
+    picture: '/CountryPictures/vietnam.jpg',
   },
   {
     country: 'slovenia',
-    flag: '/path/to/slovenia-flag.svg',
-    notSelectedFlag: '/path/to/slovenia-flag-not-selected.svg',
-    picture: '/path/to/slovenia-picture.jpg',
+    flag: '/flags/slovenia-flag.svg',
+    notSelectedFlag: '/flags/slovenia-flag-not-selected.svg',
+    picture: '/CountryPictures/slovenia.jpg',
   },
   {
     country: 'colombia',
-    flag: '/path/to/colombia-flag.svg',
-    notSelectedFlag: '/path/to/colombia-flag-not-selected.svg',
-    picture: '/path/to/colombia-picture.jpg',
+    flag: '/flags/colombia-flag.svg',
+    notSelectedFlag: '/flags/colombia-flag-not-selected.svg',
+    picture: '/CountryPictures/colombia.jpg',
   },
   {
     country: 'peru',
-    flag: '/path/to/peru-flag.svg',
-    notSelectedFlag: '/path/to/peru-flag-not-selected.svg',
-    picture: '/path/to/peru-picture.jpg',
+    flag: '/flags/peru-flag.svg',
+    notSelectedFlag: '/flags/peru-flag-not-selected.svg',
+    picture: '/CountryPictures/peru.jpg',
   },
 ];
 
-export default countryData
+export default countryData;
