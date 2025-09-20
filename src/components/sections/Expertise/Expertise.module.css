@@ -45,7 +45,7 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .frameParent {
@@ -64,19 +64,21 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    padding: 15px 30px;
     height: 75.6px;
     min-width: 64.2px; /* Ensure a minimum size */
     box-sizing: border-box;
+	margin: 0;
     /* The background color is set dynamically in the component's inline style */
 }
 
 .pillText {
     /* Styles for the text inside each pill */
     position: relative;
-    font-size: 18px;
+    font-size: 1.3rem;
     font-weight: 800;
+	padding: 1rem 2rem;
     font-family: 'Zain', sans-serif;
     text-align: center;
+	margin: 0;
     /* The text color is set dynamically in the component's inline style */
 }

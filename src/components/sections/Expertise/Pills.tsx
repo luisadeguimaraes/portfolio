@@ -9,7 +9,10 @@ const Pills = () => {
           <div
             key={index}
             className={styles.pillWrapper}
-            style={{ backgroundColor: pill.color }}
+            style={{
+              backgroundColor: pill.color,
+              transform: `rotate(${pill.rotateLeft ? '-2.5deg' : '2.5deg'})`,
+            }}
           >
             <p className={styles.pillText} style={{ color: pill.textColor }}>
               {pill.text}
@@ -22,7 +25,10 @@ const Pills = () => {
           <div
             key={index + 4}
             className={styles.pillWrapper}
-            style={{ backgroundColor: pill.color }}
+            style={{
+              backgroundColor: pill.color,
+              transform: `rotate(${pill.rotateLeft ? '-2.5deg' : '2.5deg'})`,
+            }}
           >
             <p className={styles.pillText} style={{ color: pill.textColor }}>
               {pill.text}
