@@ -1,8 +1,11 @@
-// import pics from "../../../../../../public/CountryPictures/brazil.jpg" pathing for reference
+export type Country = {
+  country: string;
+  flag: string;
+  notSelectedFlag: string;
+  picture: string;
+};
 
-
-
-const countryData = [
+const countryData: Country[] = [
   {
     country: 'brazil',
     flag: '/flags/brazil-flag.svg',
@@ -36,3 +39,4 @@ const countryData = [
 ];
 
 export default countryData;
+
