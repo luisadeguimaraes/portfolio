@@ -11,6 +11,7 @@
   font-size: 18px;
   color: #4d4d4d;
   padding: 1rem;
+  
 }
 
 .contactItem {
@@ -20,6 +21,7 @@
   justify-content: center;
   padding: 10px;
   box-sizing: border-box;
+  
 }
 
 .contactText {
@@ -36,4 +38,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
+    text-decoration: none;
+
 }
