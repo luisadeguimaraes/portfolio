@@ -1,7 +1,7 @@
 
 
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./Countries.module.css";
 
 import countryData from "./countryData.ts"; // Assuming your data file is in the same directory
@@ -14,10 +14,7 @@ const Countries = () => {
 
       const [currentCountryIndex, setCurrentCountryIndex] = useState(0);
 
-      useEffect(() => {
-      console.log(currentCountryIndex)
-
-      }, [])
+     
 
   return (
     <div className={styles.img6828Parent}>

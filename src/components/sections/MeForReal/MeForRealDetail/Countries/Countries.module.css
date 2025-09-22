@@ -1,3 +1,10 @@
+.imageContainer {
+    position: relative;
+}
+
+
+
+
 .activePicture {
     position: relative;
     border-radius: 20px;
@@ -7,17 +14,44 @@
     max-height: 100%;
     width: 445px;
     max-height: 590px;
+    z-index: 1;
 
 }
 
 .countrySVGDiv {
-width: 100%;
-position: relative;
-border-radius: 1000px;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 8px 16px;
-box-sizing: border-box;
-gap: 20px;
+    width: 100%;
+    position: relative;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.countryButton {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+}
+
+.backgroundPicture {
+    /* Absolute position to place it behind the main image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: grayscale(100%);
+    transform: rotate(8deg);
+    z-index: 1;
+    border-radius: 20px;
+    width: 445px;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 40%;
 }

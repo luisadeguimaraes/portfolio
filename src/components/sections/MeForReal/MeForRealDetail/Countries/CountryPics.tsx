@@ -16,9 +16,14 @@ const CountryPics = ({ country, currentCountryIndex }: CountryPicsProps) => {
   // The rest of your code is correct
 
   return (
-    <div>
+   <div className={styles.imageContainer}> {/* Add a class to this div */}
       <img
         className={styles.activePicture}
+        src={country.picture}
+        alt={`A picture from ${country.country}`}
+      />
+      <img
+        className={styles.backgroundPicture}
         src={country.picture}
         alt={`A picture from ${country.country}`}
       />

@@ -6,7 +6,7 @@ import Resume from "./Resume";
 
 const Contact = () => {
   	return (
-    		<div className={styles.emailParent}>
+    		<div className={styles.frameParent}>
       			<Email/>
 				<Linkedin/>
       			<Resume/>
@@ -15,3 +15,4 @@ const Contact = () => {
 
 
 export default Contact; 
+

@@ -1,0 +1,64 @@
+.thanksForTakingYourTimeToParent {
+  	width: 100%;
+  	position: relative;
+  	height: 270px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 30px 80px;
+  	box-sizing: border-box;
+  	gap: 32px;
+  	text-align: center;
+  	font-size: 48px;
+  	color: #4d4d4d;
+  	font-family: Zain;
+}
+.thanksForTakingContainer {
+  	position: relative;
+  	font-weight: 800;
+}
+.thanksForTaking {
+  	margin: 0;
+}
+.emailParent {
+  	width: 880px;
+  	display: flex;
+  	align-items: flex-start;
+  	text-align: left;
+  	font-size: 18px;
+  	color: #000;
+}
+.email {
+  	width: 293.3px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 0px;
+  	box-sizing: border-box;
+}
+.luisadeguimaraesgmailcom {
+  	position: relative;
+  	font-weight: 300;
+}
+.thanksForTakingYourTimeToParentLinkedin {
+  	position: relative;
+  	font-weight: 300;
+  	color: inherit;
+  	text-decoration: none;
+}
+.resume {
+  	width: 293.3px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 0px;
+  	box-sizing: border-box;
+  	gap: 10px;
+}
+.download2Icon {
+  	width: 24px;
+  	position: relative;
+  	height: 24px;
+}
+
