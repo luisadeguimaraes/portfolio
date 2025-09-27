@@ -1,0 +1,30 @@
+
+
+.displayHolder {
+    /* Use Flexbox to manage the alignment and spacing of the two main displays (phones and laptop) */
+    display: flex; 
+    gap: 40px; /* Space between the phones and the laptop display */
+    /* Ensure the phones container and the MacDiv don't stretch vertically unless you want them to */
+    align-items: flex-start; 
+}
+
+.cellPhonesDiv {
+
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+margin-bottom: 30px;
+}
+
+.halPhone {
+
+    width: 100%;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    width: 15rem;
+
+}

@@ -1,0 +1,10 @@
+
+
+
+.displayDiv {
+    /* Use Flexbox to manage the alignment and spacing of the two main displays (phones and laptop) */
+    display: flex; 
+    gap: 40px; /* Space between the phones and the laptop display */
+    /* Ensure the phones container and the MacDiv don't stretch vertically unless you want them to */
+    align-items: flex-start; 
+}

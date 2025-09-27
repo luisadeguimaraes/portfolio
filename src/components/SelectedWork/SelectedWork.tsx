@@ -1,7 +1,7 @@
 import styles from "./SelectedWork.module.css"
 import TaxGuidanceExample from "./TaxGuidanceExample";
-import AviationExamples from "./AvaitionExample";
-import CampaignPlatformExample from "./CampaignPlatformExample";
+import AviationExamples from "./Aviation/AvaitionExample";
+import CampaignPlatformExample from "./CampaignPlatform/CampaignPlatformExample"
 
 
 const SelectedWork = () => {
@@ -16,7 +16,6 @@ const SelectedWork = () => {
         <TaxGuidanceExample/>
         <AviationExamples/>
         <CampaignPlatformExample/>
-       
       </div>
     </div>
   );
