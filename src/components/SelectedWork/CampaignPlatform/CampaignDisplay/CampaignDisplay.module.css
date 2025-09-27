@@ -1,10 +1,15 @@
-
-
-
 .displayDiv {
-    /* Use Flexbox to manage the alignment and spacing of the two main displays (phones and laptop) */
+    /* Base styles for all screen sizes */
     display: flex; 
-    gap: 40px; /* Space between the phones and the laptop display */
-    /* Ensure the phones container and the MacDiv don't stretch vertically unless you want them to */
+    gap: 40px; 
     align-items: flex-start; 
+    margin-bottom: 2rem;
+}
+
+/* ✅ Media Query Block starts here, outside the selector */
+@media (min-width: 1200px) {
+    /* This rule only applies when the screen is 1200px or wider */
+    .displayDiv {
+        min-height: 500px;
+    }
 }
