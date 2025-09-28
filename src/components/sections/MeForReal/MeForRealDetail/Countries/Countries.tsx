@@ -17,7 +17,7 @@ const Countries = () => {
      
 
   return (
-    <div className={styles.img6828Parent}>
+    <div className={styles.slideContainer}>
       <CountryPics currentCountryIndex={currentCountryIndex} country={countryData[currentCountryIndex]} />
 
       <CountryIcons 

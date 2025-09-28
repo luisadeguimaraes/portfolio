@@ -7,7 +7,7 @@ const MacExample = () => {
     return (
         <div className={styles.MacDiv}>
             <LeftExample />
-            <img className={styles.appleMacbookAir13Silver2}
+            <img className={styles.macBook}
                 alt="Laptop picture"
                 src="/AviationExamples/laptop.png"
             />

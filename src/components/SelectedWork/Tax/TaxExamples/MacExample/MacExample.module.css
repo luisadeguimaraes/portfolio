@@ -1,0 +1,34 @@
+
+.MacDiv {
+    width: 50%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    flex-shrink: 0; 
+}
+
+
+
+.macBook {
+    position: static;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.pilotTrackingTrainings1 {
+    position: absolute;
+    top: 11%;
+    left: 13.25%;
+    width: 73.5%;
+    height: 78%;
+    object-fit: cover;
+}

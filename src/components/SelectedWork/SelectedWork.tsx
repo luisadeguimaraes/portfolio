@@ -1,5 +1,5 @@
 import styles from "./SelectedWork.module.css"
-import TaxGuidanceExample from "./TaxGuidanceExample";
+import TaxGuidanceExample from "../SelectedWork/Tax/TaxGuidanceExample"
 import AviationExamples from "./Aviation/AvaitionExample";
 import CampaignPlatformExample from "./CampaignPlatform/CampaignPlatformExample"
 

@@ -14,3 +14,4 @@ const RightExample = () => {
 }
 
 export default RightExample
+
