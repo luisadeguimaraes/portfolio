@@ -6,7 +6,7 @@ const LeftExample = () => {
     return ( 
           <img className={styles.left} 
                 alt="Example of Designed Campaign Website" 
-                src="/CampaignExamples/left.png"
+                src="/CampaignExamples/leftPlex.png"
                 />
               
      

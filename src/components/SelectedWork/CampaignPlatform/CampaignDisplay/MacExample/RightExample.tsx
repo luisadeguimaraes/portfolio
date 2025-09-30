@@ -7,7 +7,7 @@ const RightExample = () => {
         
               <img className={styles.right} 
                 alt="screenshot of desktop view" 
-                src="/CampaignExamples/right.png"
+                src="/CampaignExamples/payDetails.png"
                 />
      
     )

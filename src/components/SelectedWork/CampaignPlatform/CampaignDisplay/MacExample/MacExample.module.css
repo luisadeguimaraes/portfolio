@@ -39,7 +39,8 @@
     left: -75%;
     top: -15%;
     height: inherit;
-    width: 80%;
+    width: 100%;
+    z-index: -1;
 
 }
 
@@ -48,5 +49,7 @@
     right: -75%;
     bottom: -15%;
     height: inherit;
-    width: 80%;
+    width: 100%;
+        z-index: -1;
+
 }

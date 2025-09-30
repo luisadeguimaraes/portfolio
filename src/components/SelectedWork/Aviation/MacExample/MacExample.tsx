@@ -10,7 +10,7 @@ const MacExample = () => {
                 />
                 <img className={styles.pilotTrackingTrainings1} 
                 alt="screenshot of desktop view" 
-                src="/AviationExamples/desktopView.png"
+                src="/AviationExamples/AviationMain.png"
                 />
             </div>
     )

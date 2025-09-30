@@ -11,10 +11,11 @@ const MacExample = () => {
                 alt="Laptop picture"
                 src="/AviationExamples/laptop.png"
             />
+            
 
             <video
                 className={styles.pilotTrackingTrainings1}
-                src="/CampaignExamples/campVid.mp4"
+                src="/CampaignExamples/main.mp4"
                 controls
                 loop
                 muted
