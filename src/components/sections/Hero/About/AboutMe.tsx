@@ -13,7 +13,7 @@ const AboutMe = () => (
 
     <div className={styles.bio}>
      
-        <strong className={styles.years}>+1 year</strong> of experience designing and developing digital products in a cross-functional <strong>team</strong>, partnering with founders and businesses to bring new ideas to life at a <strong>software company</strong>.
+        <strong className={styles.years}>+1 year</strong> of experience designing and developing digital products in a cross-functional team, partnering with founders and businesses to bring new ideas to life at a software company.
     
     </div>
 

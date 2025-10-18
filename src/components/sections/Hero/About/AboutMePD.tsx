@@ -24,7 +24,7 @@ const AboutMePD = () => {
 
             {/* Apply the bio style directly to the container div */}
             <div className={styles.nameLocationDiv}> 
-              <h3 className={styles.luisaDeGuimares }>Luisa</h3>
+              <h3 className={styles.luisaDeGuimares }>Luisa Lopes</h3>
               <p className={styles.seattleWashington}>Seatte, Washington</p>
             </div>
         

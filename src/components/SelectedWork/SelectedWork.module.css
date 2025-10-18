@@ -13,7 +13,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* This horizontally centers the content */
 
     color: var(--Primary-600, #4D4D4D);
     text-align: center;
@@ -22,24 +21,16 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin: 5rem 0;
 
-    /* The magic happens here */
     font-size: clamp(1rem, 2vw, 3vw);
 }
 
 
-/* If you need campaign margin:  */
 
-/* .plexHeadline {
-    margin: 80px;
-} */
-
-
-/* examples main divv */
 
 .examplesMainDiv {
     width: 1440px;
-    height: 938px;
     /* Make this a flex container to use 'gap' */
     display: flex;
     /* 'gap' separates items inside the container */
