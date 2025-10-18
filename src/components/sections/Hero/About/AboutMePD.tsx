@@ -9,15 +9,13 @@ const AboutMePD = () => {
                 <img
                     src="/Luisa.png"
                     alt="Profile picture of Luisa de Guimarães"
-                    width="128"
-                    height="128"
+                    
                     className={styles.profileImage}
                 />
                 <img
                     src="/Luisa.png"
                     alt="Profile picture of Luisa de Guimarães"
-                    width="128"
-                    height="128"
+                  
                     className={styles.backgroundImage}
                 />
                 </div>
