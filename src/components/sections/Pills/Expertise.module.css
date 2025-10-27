@@ -51,15 +51,13 @@
 .frameParent {
     display: flex;
     align-items: center;
-    justify-content: center; /* This centers the pills horizontally */
-    flex-wrap: wrap; /* Allows pills to wrap to the next line on smaller screens */
-    gap: 1.25rem
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 1.5rem
 }
 
-/* PILL STYLES */
 
 .pillWrapper {
-    /* Styles for the outer container of each pill */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,11 +65,9 @@
     height: 4rem;
     box-sizing: border-box;
 	margin: 0;
-    /* The background color is set dynamically in the component's inline style */
 }
 
 .pillText {
-    /* Styles for the text inside each pill */
     position: relative;
     font-size: 1em;
     font-weight: 800;
@@ -79,5 +75,4 @@
     font-family: 'Zain', sans-serif;
     text-align: center;
 	margin: 0;
-    /* The text color is set dynamically in the component's inline style */
 }

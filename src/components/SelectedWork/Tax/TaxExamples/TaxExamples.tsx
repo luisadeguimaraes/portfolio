@@ -8,15 +8,11 @@ const TaxExamples = () => {
            <MacExample/>
             <div className={styles.pictureDiv}>
 
-                <img className={styles.find} 
+                <img className={styles.taxPic} 
                 alt="screenshot of desktop view" 
-                src="/TaxExamples/find.png"
+                src="/TaxExamples/TaxPic.png"
                 />
 
-                <img className={styles.browse} 
-                alt="screenshot of desktop view" 
-                src="/TaxExamples/browse.png"
-                />
             </div>
 
         </div>
