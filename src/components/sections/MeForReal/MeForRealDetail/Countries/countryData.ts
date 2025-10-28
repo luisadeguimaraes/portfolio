@@ -1,3 +1,8 @@
+import { asset } from "../../../../../hooks/pathing";
+
+asset
+
+
 // The 'id' property is a unique identifier, and 'country' is the display name.
 export type Country = {
     id: string; 
@@ -9,12 +14,12 @@ const countryData: Country[] = [
     {
         id: 'brazil',
         country: 'Brazil',
-        picture: '/CountryPictures/brazil.jpg',
+        picture: asset('/CountryPictures/brazil.jpg'),
     },
     {
         id: 'vietnam',
         country: 'Vietnam',
-        picture: '/CountryPictures/vietnam.jpg',
+        picture: asset('/CountryPictures/vietnam.jpg'),
     },
     {
         id: 'slovenia',
