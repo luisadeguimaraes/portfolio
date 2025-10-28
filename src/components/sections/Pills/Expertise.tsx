@@ -1,4 +1,3 @@
-import styles from "./Expertise.module.css"
 import Title from "./Title"
 import Pills from "./Pills"
 

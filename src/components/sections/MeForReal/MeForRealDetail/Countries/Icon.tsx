@@ -10,6 +10,7 @@ type IconProps = {
     currentCountryIndex: number;
     setCurrentCountryIndex: Dispatch<SetStateAction<number>>;
 };
+type FlagKey = keyof typeof CountryFlagComponents;  //what you had me add
 
 const Icon = ({ index, country, currentCountryIndex, setCurrentCountryIndex }: IconProps) => {
     function handleClick() {
@@ -20,8 +21,7 @@ const Icon = ({ index, country, currentCountryIndex, setCurrentCountryIndex }: I
 
     // Use the id property to look up the component. 
     // This is safe because the id field is explicitly defined on the 'Country' type.
-    const FlagComponent = CountryFlagComponents[country.id];
-
+const FlagComponent = CountryFlagComponents[country.id as FlagKey];
 
 
     if (!FlagComponent) {
