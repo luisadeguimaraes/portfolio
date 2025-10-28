@@ -1,4 +1,5 @@
 
+import { asset } from "../../../../../hooks/pathing"
 import styles from "./MacExample.module.css"
 
 
@@ -7,12 +8,12 @@ const MacExample = () => {
         <div className={styles.MacDiv}>
             <img className={styles.macBook}
                 alt="Laptop picture"
-                src="/AviationExamples/laptop.png"
+                src={asset("AviationExamples/laptop.png")}
             />
 
             <video
                 className={styles.pilotTrackingTrainings1}
-                src="/TaxExamples/waxVideo.mp4"
+                src={asset("TaxExamples/waxVideo.mp4")}
                 controls
                 loop
                 muted
