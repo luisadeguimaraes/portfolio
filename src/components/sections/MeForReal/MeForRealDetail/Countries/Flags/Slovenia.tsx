@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 type FlagComponentProps = {
   isSelected: boolean;
