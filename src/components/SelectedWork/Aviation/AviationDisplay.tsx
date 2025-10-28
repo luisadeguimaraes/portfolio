@@ -1,5 +1,5 @@
 import styles from "./Aviation.module.css"
-
+import { asset } from "../../../hooks/pathing"
 
 const AviationDisplay = () => {
     return (
@@ -7,13 +7,14 @@ const AviationDisplay = () => {
             <div className={styles.cellPhonesDiv}>
                 {/* might need another div to nest for the phones to space left  */}
                  <img
-                    src="/AviationExamples/halPhone.png"
+                    src={asset('AviationExamples/halPhone.png')}
                     alt="Example Photo of Aviation App"
                     className={styles.halPhone}
                 />
                      <video 
                     className={styles.aviationVideo} // Apply a CSS class for styling
-                    src="/AviationExamples/halvideo.mp4"
+                    
+                    src={asset('AviationExamples/halPhone.png')}
                     controls // Allows users to play, pause, and adjust volume
                     loop // Optional: Makes the video restart when it finishes
                     muted // Optional: Good practice for autoplay, prevents user surprise

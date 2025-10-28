@@ -1,5 +1,7 @@
 import styles from "../Hero.module.css"
 
+import { asset } from "../../../../hooks/pathing"
+
 const AboutMePD = () => {
     return (
         <div className={styles.imageNameLocationDiv}>
@@ -13,7 +15,7 @@ const AboutMePD = () => {
                     className={styles.profileImage}
                 />
                 <img
-                    src="/Luisa.png"
+                    src={asset('Luisa.png')}
                     alt="Profile picture of Luisa de Guimarães"
                   
                     className={styles.backgroundImage}
