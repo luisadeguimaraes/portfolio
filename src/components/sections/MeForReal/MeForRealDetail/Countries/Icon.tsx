@@ -1,4 +1,4 @@
-import { useEffect, type Dispatch, type SetStateAction } from "react";
+import {  type Dispatch, type SetStateAction } from "react";
 import styles from "./Countries.module.css";
 import type { Country } from "./countryData";
 
