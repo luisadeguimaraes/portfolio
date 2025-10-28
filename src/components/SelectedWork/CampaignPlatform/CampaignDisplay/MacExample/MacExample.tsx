@@ -2,6 +2,7 @@
 import styles from "./MacExample.module.css"
 import LeftExample from "./LeftExample"
 import RightExample from "./RightExample"
+import { asset } from "../../../../../hooks/pathing"
 
 const MacExample = () => {
     return (
@@ -9,13 +10,13 @@ const MacExample = () => {
             <LeftExample />
             <img className={styles.macBook}
                 alt="Laptop picture"
-                src="/AviationExamples/laptop.png"
+                src={asset("AviationExamples/laptop.png")}
             />
             
 
             <video
                 className={styles.pilotTrackingTrainings1}
-                src="/CampaignExamples/main.mp4"
+                src={asset("CampaignExamples/main.mp4")}
                 controls
                 loop
                 muted

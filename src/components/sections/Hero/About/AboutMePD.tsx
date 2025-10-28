@@ -9,7 +9,7 @@ const AboutMePD = () => {
             {/* Images div */}
             <div className={styles.profileImageWrapper}>
                 <img
-                    src="/Luisa.png"
+                    src={asset('Luisa.png')}
                     alt="Profile picture of Luisa de Guimarães"
                     
                     className={styles.profileImage}
