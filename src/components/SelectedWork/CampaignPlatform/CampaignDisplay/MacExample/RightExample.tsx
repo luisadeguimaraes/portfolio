@@ -1,4 +1,5 @@
 
+import { asset } from "../../../../../hooks/pathing"
 import styles from "./MacExample.module.css"
 
 
@@ -7,7 +8,7 @@ const RightExample = () => {
         
               <img className={styles.right} 
                 alt="screenshot of desktop view" 
-                src="/CampaignExamples/payDetails.png"
+                src={asset("CampaignExamples/payDetails.png")}
                 />
      
     )
