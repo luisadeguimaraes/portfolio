@@ -24,17 +24,17 @@ const countryData: Country[] = [
     {
         id: 'slovenia',
         country: 'Slovenia',
-        picture: '/CountryPictures/slovenia.jpg',
+        picture: asset('/CountryPictures/slovenia.jpg'),
     },
     {
         id: 'colombia',
         country: 'Colombia',
-        picture: '/CountryPictures/colombia.jpg',
+        picture: asset('/CountryPictures/colombia.jpg'),
     },
     {
         id: 'peru',
         country: 'Peru',
-        picture: '/CountryPictures/peru.jpg',
+        picture: asset('/CountryPictures/peru.jpg'),
     },
 ];
 

@@ -14,7 +14,7 @@ const AviationDisplay = () => {
                      <video 
                     className={styles.aviationVideo} // Apply a CSS class for styling
                     
-                    src={asset('AviationExamples/halVideo.mp4')}
+                    src={asset('AviationExamples/halvideo.mp4')}
                     controls // Allows users to play, pause, and adjust volume
                     loop // Optional: Makes the video restart when it finishes
                     muted // Optional: Good practice for autoplay, prevents user surprise
