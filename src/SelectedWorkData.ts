@@ -89,7 +89,7 @@ const portfolioData = [
   },
  {
     id: 3,
-    title: "Campaign Management Platform",
+    title: "Smart Door Integration",
     images: ["/path/to/image3.jpg"],
     backgroundColor: '#BD1E2D',
     secondaryColor: '#FFF',

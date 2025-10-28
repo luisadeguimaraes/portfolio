@@ -18,7 +18,6 @@ const MacExample = () => {
                 muted
                 playsInline
                 autoPlay
-
             >
             </video>
         </div>

@@ -1,5 +1,4 @@
 import styles from "./Aviation.module.css"
-import MacExample from "./MacExample/MacExample"
 
 
 const AviationDisplay = () => {
@@ -22,7 +21,6 @@ const AviationDisplay = () => {
                     autoPlay // Optional: Makes it start playing as soon as it loads
                 ></video>
             </div>
-                <MacExample/>
         </div>
     )
 }
