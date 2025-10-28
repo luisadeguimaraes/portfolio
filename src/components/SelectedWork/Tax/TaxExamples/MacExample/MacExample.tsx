@@ -12,7 +12,7 @@ const MacExample = () => {
 
             <video
                 className={styles.pilotTrackingTrainings1}
-                src="/TaxExamples/taxRecording.mp4"
+                src="/TaxExamples/waxVideo.mp4"
                 controls
                 loop
                 muted
