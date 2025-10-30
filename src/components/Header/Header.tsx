@@ -1,6 +1,6 @@
 // Header.tsx
 import React from 'react';
-import ThemeToggle from './ThemeToggle';
+// import ThemeToggle from './ThemeToggle'; c3po here
 
 // This is the key part of CSS Modules.
 // 'styles' becomes an object mapping class names to unique strings.
@@ -18,7 +18,8 @@ const Header: React.FC<HeaderProps> = () => {
       <div className={styles.content}>
         {/* Your content like a logo or navigation goes here */}
         <div></div>
-        <ThemeToggle/>
+        {/* C3PO HERE */}
+        {/* <ThemeToggle/> */} 
       </div>
     </header>
   );
