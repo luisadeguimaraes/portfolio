@@ -7,7 +7,7 @@ const Resume = () => {
     <div className={styles.contactItem}>
       {/* 🔑 KEY CHANGE: Using the asset helper for the href */}
       <a 
-        href={asset("LUISA_resume.pdf")} // <--- Updated line
+        href={asset("Luisa_resume.pdf")} // <--- Updated line
         download 
         className={`${styles.resume} ${styles.contactText}`}
       >
