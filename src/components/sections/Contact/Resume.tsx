@@ -1,9 +1,16 @@
+import { asset } from "../../../hooks/pathing";
 import styles from "./Contact.module.css";
+
 
 const Resume = () => {
   return (
     <div className={styles.contactItem}>
-      <a href="/path-to-your-resume.pdf" download className={`${styles.resume} ${styles.contactText}`}>
+      {/* 🔑 KEY CHANGE: Using the asset helper for the href */}
+      <a 
+        href={asset("LUISA_resume.pdf")} // <--- Updated line
+        download 
+        className={`${styles.resume} ${styles.contactText}`}
+      >
         <span>Download resume</span>
         <svg
           className={styles.vectorIcon}
