@@ -36,6 +36,7 @@ const Pills = () => {
           </div>
         ))}
       </div>
+      
     </div>
   );
 };

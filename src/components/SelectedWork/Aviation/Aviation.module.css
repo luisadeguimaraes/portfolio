@@ -19,7 +19,8 @@
     justify-content: center;
     gap: 60px;
     margin-bottom: 30px;
-    
+      background: transparent;
+  overflow: hidden;
 }
 
 .halPhone {
@@ -29,10 +30,13 @@
     object-fit: cover;
     width: 15rem;
     max-height: 55vh;
+    
 
 }
 
 .aviationVideo {
     max-height: 65vh;
 
+
 }
+

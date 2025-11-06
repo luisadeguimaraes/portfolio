@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.projectItemContainer{
+    min-height: 80vh;
+}
+
 .selectedWorkP {
     margin-left: 5%;
     color: #BFBFBF;
