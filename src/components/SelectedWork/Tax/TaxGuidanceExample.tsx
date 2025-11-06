@@ -15,11 +15,11 @@ const TaxGuidanceExample = () => {
     }
 
     return (
-        <div>
+        <div className={styles.projectItemContainer}>
             <div className={styles.headlineContainer}>
-                <h2 className={styles.sampleWorkHeadline}>
+                <h3 className={styles.sampleWorkHeadline}>
                     {taxProject.title}
-                </h2>
+                </h3>
             </div>
 
             <TaxExamples/>
