@@ -24,3 +24,11 @@ body, html {
     padding: 0;
     box-sizing: border-box; 
 }
+
+@media screen and (max-width: 768px) {
+  /* CSS rules to apply when the screen width is 768px or less */
+  body {
+    display: none;
+  }
+
+}

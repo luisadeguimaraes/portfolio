@@ -12,7 +12,7 @@ const AviationDisplay = () => {
                 />
                 <video
                     className={styles.aviationVideo} 
-                    src={asset('AviationExamples/halvideo.mp4')}
+                    src={asset('AviationExamples/vid2.mp4')}
                     loop 
                     muted 
                     playsInline 
